@@ -2,10 +2,10 @@
 
 import "package:flutter/material.dart";
 
-void main() => runApp(const signup());
+void main() => runApp(const search());
 
-class signup extends StatelessWidget {
-  const signup({Key? key}) : super(key: key);
+class search extends StatelessWidget {
+  const search({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +27,7 @@ class _HomeState extends State<Home> {
 // var to store
 // onChanged callback
   late String title;
-  String text = "No Value Entered";
+  String text = "No Place Entered";
 
   void _setText() {
     setState(() {

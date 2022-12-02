@@ -26,7 +26,7 @@ class _AppCubitLogicsState  extends State<AppCubitLogics>{
       body: BlocBuilder<AppCubits, CubitState>(
         builder: (context,state){
           if(state is WelcomeState){
-            return signup();
+            return MainPage();
           }else {
             return Container();
           }         },

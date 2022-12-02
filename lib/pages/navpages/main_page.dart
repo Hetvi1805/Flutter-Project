@@ -20,8 +20,8 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   List pages = [
     HomePage(),
+    search(),
     BarItemPage(),
-    SearchPage(),
     MyPage(),
 
   ];
